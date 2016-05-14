@@ -1,4 +1,7 @@
 <keymap version="1" name="mark" parent="Mac OS X 10.5+">
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
@@ -13,15 +16,20 @@
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
+  <action id="NextSplitter" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
+  <action id="PrevSplitter" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
