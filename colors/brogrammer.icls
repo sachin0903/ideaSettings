@@ -1121,7 +1121,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="6b6b6b" />
+        <option name="FOREGROUND" value="56b00" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
       </value>
     </option>
