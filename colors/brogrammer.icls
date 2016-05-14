@@ -429,6 +429,7 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
+        <option name="BACKGROUND" value="d74737" />
         <option name="EFFECT_COLOR" value="d74737" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
         <option name="EFFECT_TYPE" value="4" />
