@@ -520,7 +520,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d0000f" />
+        <option name="BACKGROUND" value="3c444f" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
@@ -574,7 +574,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="3ad086" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
