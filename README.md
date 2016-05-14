@@ -1,2 +1,0 @@
-# ideaSettings
-My IDEA Settings
