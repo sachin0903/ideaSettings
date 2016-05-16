@@ -47,6 +47,7 @@
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta x" />
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
@@ -68,4 +69,5 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="Switcher" />
+  <action id="Vcs.UpdateProject" />
 </keymap>
