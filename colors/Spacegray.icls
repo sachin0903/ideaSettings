@@ -478,9 +478,6 @@
         <option name="FOREGROUND" value="96b5b4" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_BACKGROUND">
-      <value />
-    </option>
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value />
     </option>
@@ -656,27 +653,9 @@
         <option name="FOREGROUND" value="e67e24" />
       </value>
     </option>
-    <option name="REGEXP.BAD_CHARACTER">
-      <value />
-    </option>
-    <option name="REGEXP.BRACES">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="REGEXP.BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
     <option name="REGEXP.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="8000" />
-      </value>
-    </option>
-    <option name="REGEXP.PARENTHS">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="SASS_VARIABLE">
