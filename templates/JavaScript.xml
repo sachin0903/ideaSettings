@@ -12,6 +12,14 @@
     <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="ff" value="function $NAME$($PARAM$) {&#10;  $END$&#10;}" description="Inserts function declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
