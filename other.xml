@@ -52,7 +52,7 @@
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.0/bin/node" />
   </component>
   <component name="NodeLocalInterpreterManager">
-    <node-interpreter path="/usr/local/bin/node" version="5.11.0" last-modified="1461260733000" />
-    <node-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.0/bin/node" version="(Does not exist)" last-modified="1463257525172" />
+    <node-interpreter path="/usr/local/bin/node" version="0.10.32" last-modified="1410910477000" />
+    <node-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.0/bin/node" version="4.4.0" last-modified="1457490456000" />
   </component>
 </application>

@@ -679,9 +679,6 @@
         <option name="FOREGROUND" value="d74737" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_BACKGROUND">
-      <value />
-    </option>
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value />
     </option>
@@ -926,9 +923,6 @@
       <value>
         <option name="FOREGROUND" value="e67e24" />
       </value>
-    </option>
-    <option name="REGEXP.BAD_CHARACTER">
-      <value />
     </option>
     <option name="REGEXP.BRACES">
       <value>
@@ -1210,9 +1204,6 @@
       <value>
         <option name="FOREGROUND" value="d74737" />
       </value>
-    </option>
-    <option name="XSLT_DIRECTIVE">
-      <value />
     </option>
     <option name="YAML_SIGN">
       <value>
