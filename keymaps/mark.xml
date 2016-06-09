@@ -7,6 +7,12 @@
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditSourceInNewWindow" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
@@ -14,6 +20,8 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
@@ -28,6 +36,8 @@
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
   <action id="NextSplitter" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -57,6 +67,7 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
+  <action id="ShowContent" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
