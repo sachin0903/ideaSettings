@@ -50,6 +50,9 @@
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
+  <action id="Macro.semi">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="NextSplitter" />
@@ -83,6 +86,7 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="ShowContent" />
+  <action id="ShowProjectStructureSettings" />
   <action id="Stop">
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl s" />
