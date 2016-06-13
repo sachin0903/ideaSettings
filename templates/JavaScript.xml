@@ -116,4 +116,12 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
+  <template name="st" value="'use strict';" description="'Use Strict'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
