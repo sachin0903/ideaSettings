@@ -22,7 +22,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ll" value="console.log('-------------NOTICE ME -------------');" description="Big Console Log" toReformat="false" toShortenFQNames="true">
+  <template name="ll" value="console.log('------------- $var$ -------------');" description="Big Console Log" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
