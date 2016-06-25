@@ -429,7 +429,7 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="d74737" />
+        <option name="BACKGROUND" value="b24133" />
         <option name="EFFECT_COLOR" value="d74737" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
         <option name="EFFECT_TYPE" value="4" />
@@ -1035,8 +1035,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ea5744" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="b24133" />
       </value>
     </option>
     <option name="SMARTY_COMMENT">
@@ -1108,10 +1108,11 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ea5744" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="b24133" />
+        <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
-        <option name="EFFECT_TYPE" value="5" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
