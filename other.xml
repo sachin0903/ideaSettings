@@ -53,6 +53,7 @@
   </component>
   <component name="NodeLocalInterpreterManager">
     <node-interpreter path="/usr/local/bin/node" version="0.10.32" last-modified="1410910477000" />
+    <node-interpreter path="$USER_HOME$/.nvm/versions/node/v6.2.2/bin/node" version="6.2.2" last-modified="1466174063000" />
     <node-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.0/bin/node" version="4.4.0" last-modified="1457490456000" />
   </component>
 </application>
