@@ -50,6 +50,9 @@
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
+  <action id="Macro.make smaller">
+    <keyboard-shortcut first-keystroke="meta alt comma" />
+  </action>
   <action id="Macro.semi">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
