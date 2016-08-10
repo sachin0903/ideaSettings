@@ -1,5 +1,0 @@
-<templateSet group="Zen CSS">
-  <template name="tal:r" value="text-align-last:right;" description="text-align-last:right;" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <context />
-  </template>
-</templateSet>
