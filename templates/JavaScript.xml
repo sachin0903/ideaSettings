@@ -3,16 +3,12 @@
     <variable name="log" expression="" defaultValue="'test'" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="f" value="function($PARAM$) {&#10;  $END$&#10;}" description="Inserts function expression" toReformat="true" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
   <template name="ff" value="function $NAME$($PARAM$) {&#10;  $END$&#10;}" description="Inserts function declaration" toReformat="false" toShortenFQNames="true">
@@ -26,9 +22,6 @@
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="it" value="it('$should$', function(done) {&#10;    $fnBody$&#10;});" description="It should..." toReformat="false" toShortenFQNames="true">
@@ -36,9 +29,6 @@
     <variable name="fnBody" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="de" value="describe('$description$', function(done) {&#10;    $fnBody$&#10;});" description="Inserts describe expression (test frameworks)" toReformat="false" toShortenFQNames="true">
@@ -46,9 +36,6 @@
     <variable name="fnBody" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ra" value="$method$($description$, function($param$) {&#10;    $fnBody$&#10;});" description="Inserts a randomly named function with a callback as 2nd param" toReformat="false" toShortenFQNames="true">
@@ -58,18 +45,12 @@
     <variable name="fnBody" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name=".catch" value=".catch(function(err) {&#10;  $body$&#10;});" description="catch block" toReformat="true" toShortenFQNames="true">
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name=".then" value=".then(function($var$) {&#10;    $body$&#10;})" description="then block" toReformat="true" toShortenFQNames="true">
@@ -77,9 +58,6 @@
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name=".t" value=".then(function($var$) {&#10;    $body$&#10;})" description="then block" toReformat="true" toShortenFQNames="true">
@@ -87,69 +65,47 @@
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name=".c" value=".catch(function(err) {&#10;  $body$&#10;});" description="catch block" toReformat="true" toShortenFQNames="true">
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="log" value="console.log($log$);" description="Console.log" toReformat="false" toShortenFQNames="true">
     <variable name="log" expression="" defaultValue="'test'" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="function" value="function($PARAM$) {&#10;  $END$&#10;}" description="Inserts function expression" toReformat="true" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
   <template name="st" value="'use strict';" description="'Use Strict'" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="lll" value="console.log('$asdf$ ==== ' + $asdf$);" description="fancy console log" toReformat="false" toShortenFQNames="true">
     <variable name="asdf" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ll" value="console.log('- $var$ -');&#10;console.log($var$);" description="Console.log double line" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="asdf" value="$asdf$&#10;$asdf$" toReformat="false" toShortenFQNames="true">
     <variable name="asdf" expression="lineNumber()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
