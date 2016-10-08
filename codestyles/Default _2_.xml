@@ -1,6 +1,7 @@
 <code_scheme name="Default (2)">
+  <option name="HTML_QUOTE_STYLE" value="None" />
   <JSCodeStyleSettings>
-    <option name="IMPORTS_WRAP" value="2" />
+    <option name="IMPORTS_WRAP" value="0" />
   </JSCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
