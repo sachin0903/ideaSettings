@@ -5,4 +5,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mo" value="import React from 'react';&#10;&#10;const $Name$ = (props) =&gt; (&#10;    $body$&#10;);&#10;&#10;export default $Name$" description="Inserts Dummy Component" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
 </templateSet>
