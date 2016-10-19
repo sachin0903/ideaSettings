@@ -48,6 +48,10 @@
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="Macro.make smaller">
@@ -71,6 +75,7 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
+  <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>
@@ -119,5 +124,9 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="UsageView.Remove" />
+  <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="Vcs.UpdateProject" />
 </keymap>
