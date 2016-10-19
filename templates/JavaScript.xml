@@ -13,4 +13,10 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
+  <template name="con" value="export const $param$_REQUEST = '$param$_REQUEST';&#10;export const $param$_SUCCESS = '$param$_SUCCESS';&#10;export const $param$_FAILURE = '$param$_FAILURE';" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="capitalizeAndUnderscore(String)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
