@@ -1,6 +1,8 @@
 <scheme name="brogrammer" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_SIZE" value="10" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="414651" />
@@ -10,7 +12,6 @@
     <option name="FILESTATUS_ADDED" value="39d086" />
     <option name="FILESTATUS_COPIED" value="39d086" />
     <option name="FILESTATUS_MODIFIED" value="f1c410" />
-    <option name="FILESTATUS_NOT_CHANGED" value="" />
     <option name="FILESTATUS_UNKNOWN" value="d74737" />
     <option name="GUTTER_BACKGROUND" value="262626" />
     <option name="HTML_TAG_TREE_LEVEL0" value="" />
