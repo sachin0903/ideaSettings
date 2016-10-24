@@ -128,12 +128,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.COMMENT">
-      <value>
-        <option name="FOREGROUND" value="606060" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="CSS.DOT">
       <value>
         <option name="FOREGROUND" value="39d086" />
@@ -256,7 +250,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
+        <option name="FOREGROUND" value="ff00c2" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -282,7 +276,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
+        <option name="FOREGROUND" value="ff00c2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -331,7 +325,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
+        <option name="FOREGROUND" value="ff00c2" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -491,11 +485,6 @@
       <value>
         <option name="FOREGROUND" value="c0c5ce" />
         <option name="BACKGROUND" value="1a1a1a" />
-      </value>
-    </option>
-    <option name="HTML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="606060" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
