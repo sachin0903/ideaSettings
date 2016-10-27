@@ -10,6 +10,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" value="HTML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" value="JavaScript 1.6" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" value="JSON" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.scss" value="SCSS" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.xml" value="XML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10" value="JSON" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11" value="TEXT" />
@@ -22,6 +23,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.html" value="HTML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js" value="JSX Harmony" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json" value="JSON" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.scss" value="SCSS" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.xml" value="XML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.html" value="HTML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js" value="JavaScript" />
