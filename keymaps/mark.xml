@@ -126,6 +126,9 @@
   </action>
   <action id="ShowContent" />
   <action id="ShowProjectStructureSettings" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift back_quote" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl s" />
