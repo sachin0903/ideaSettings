@@ -10636,7 +10636,8 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b388e7" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ff00c2" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
       </value>
     </option>
@@ -10685,11 +10686,6 @@
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="f1c410" />
-      </value>
-    </option>
-    <option name="XML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="606060" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
