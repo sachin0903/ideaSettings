@@ -1,4 +1,5 @@
 <code_scheme name="Default (2)">
+  <option name="HTML_ATTRIBUTE_WRAP" value="0" />
   <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   <option name="HTML_QUOTE_STYLE" value="None" />
   <JSCodeStyleSettings>
@@ -12,6 +13,7 @@
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
   <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="0" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
 </code_scheme>
