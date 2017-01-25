@@ -6,9 +6,6 @@
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
-  <action id="ChangesView.Commit">
-    <keyboard-shortcut first-keystroke="meta alt c" />
-  </action>
   <action id="CompareTwoFiles" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
@@ -137,6 +134,9 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="SubversionFilePopupGroup">
+    <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="shift meta back_quote" />
