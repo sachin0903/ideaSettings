@@ -1,6 +1,9 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="EditorDeleteToWordEnd">
+        <abbreviation name="del" />
+      </action>
       <action id="ShowUmlDiagram" />
     </abbreviations>
   </component>
