@@ -13,7 +13,7 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="con" value="export const $param$_REQUEST = '$param$_REQUEST';&#10;export const $param$_SUCCESS = '$param$_SUCCESS';&#10;export const $param$_FAILURE = '$param$_FAILURE';" toReformat="false" toShortenFQNames="true">
+  <template name="redcon" value="export const $param$_REQUEST = '$param$_REQUEST';&#10;export const $param$_SUCCESS = '$param$_SUCCESS';&#10;export const $param$_FAILURE = '$param$_FAILURE';" description="Redux Constants" toReformat="false" toShortenFQNames="true">
     <variable name="param" expression="capitalizeAndUnderscore(String)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
