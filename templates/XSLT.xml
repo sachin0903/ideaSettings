@@ -1,0 +1,17 @@
+<templateSet group="XSLT">
+  <template name="con" value="&lt;container name=&quot;$attr$&quot; location=&quot;$attr$&quot;&gt;&#10;    $content$&#10;&lt;/container&gt;" description="Container" toReformat="false" toShortenFQNames="true">
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="item" value="&lt;item name=&quot;$attr$&quot; pathid=&quot;$attr$&quot;&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;description&gt;$desc$&lt;/description&gt;&#10;    &lt;text required=&quot;t&quot; size=&quot;60&quot; maxlength=&quot;300&quot;/&gt;&#10;&lt;/item&gt;&#10;$END$" description="Item" toReformat="false" toShortenFQNames="true">
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
