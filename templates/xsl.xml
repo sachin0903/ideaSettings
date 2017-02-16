@@ -1,0 +1,8 @@
+<templateSet group="xsl">
+  <template name="has" value="data-doc-has=&quot;$val$&quot;" description="Data-Doc-Has" toReformat="false" toShortenFQNames="true">
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
