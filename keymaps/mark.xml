@@ -3,6 +3,12 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Arrangement.Alias.Rule.Add">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="Arrangement.Rule.Add">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
@@ -84,6 +90,9 @@
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="Git.ContextMenu">
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
@@ -103,6 +112,9 @@
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextSplitter" />
   <action id="NextTab">
@@ -123,6 +135,9 @@
   <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt tab" />
+  </action>
+  <action id="RemoteHost.NewRemoteItem">
+    <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
@@ -167,6 +182,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="Switcher" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Uml.NewElement">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
