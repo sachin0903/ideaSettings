@@ -1,10 +1,10 @@
 <templateSet group="Zen CSS">
-  <template name="md" value="@include bp($screenMdMin) {&#10;    $END$&#10;}" description="medium breakpoint" toReformat="false" toShortenFQNames="true">
+  <template name="md" value="@include bp($screen-md-min) {&#10;  $END$&#10;}" description="medium breakpoint" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="lg" value="@include bp($screenLgMin) {&#10;    $END$&#10;}" description="large breakpoint" toReformat="false" toShortenFQNames="true">
+  <template name="lg" value="@include bp($screen-lg-min) {&#10;  $END$&#10;}" description="large breakpoint" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
