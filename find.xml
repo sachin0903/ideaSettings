@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'api'" />
-    <option name="defaultScopeName" value="Project 'api'" />
+    <option name="customScope" value="Project 'leighton-personacms-frontend'" />
+    <option name="defaultScopeName" value="Project 'leighton-personacms-frontend'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'api'" />
+    <option name="SEARCH_SCOPE" value="Project 'leighton-personacms-frontend'" />
   </component>
 </application>
