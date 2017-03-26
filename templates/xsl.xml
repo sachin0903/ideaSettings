@@ -8,8 +8,8 @@
   <template name="$" value="$('$var$')" description="jquery" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TypeScript" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="$t" value="var $t = $(this);" description="$this" toReformat="false" toShortenFQNames="true">
