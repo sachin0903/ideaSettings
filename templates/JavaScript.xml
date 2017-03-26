@@ -22,15 +22,15 @@
   <template name="log" value="console.log($var$);" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TypeScript" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="con" value="const $var$ = '$var$';" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TypeScript" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="red" value="export function $reducerName$(state: $state$ = $init$, action: Action&lt;any&gt;): $state$ {&#10;    switch(action.type) {&#10;        case $action$:&#10;            return $return$;&#10;        default:&#10;            return state;&#10;}" description="Reducer template" toReformat="false" toShortenFQNames="true">
@@ -40,8 +40,8 @@
     <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TypeScript" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="it" value="it('$Should$', function() {&#10;    assert.$END$&#10;});" description="it" toReformat="false" toShortenFQNames="true">
