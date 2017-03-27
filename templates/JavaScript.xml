@@ -80,8 +80,14 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="c" value="export class $name$ extends Component&lt;any, any&gt; {&#10;  render() {&#10;    return (&#10;    $END$&#10;    );&#10;}" description="react component class" toReformat="false" toShortenFQNames="true">
+  <template name="c" value="export class $name$ extends Component&lt;any, any&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react component class" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="import classNames from 'classnames';" description="classnames" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
