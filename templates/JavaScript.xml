@@ -68,18 +68,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="r" value="import React from 'react';" description="import React" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="rc" value="import React, {Component} from 'react';" description="import React with component" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
   <template name="c" value="export class $name$ extends Component&lt;any, any&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react component class" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -91,6 +79,18 @@
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="r" value="import React, {Component} from 'react';" description="react component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rc" value="import React, {Component} from 'react';&#10;&#10;export class $name$ extends Component&lt;any, any&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react and class" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
