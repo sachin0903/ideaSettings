@@ -9,4 +9,14 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
+  <template name="mdm" value="@include bp($screen-md-min, max) {&#10;  $END$&#10;}" description="medium max" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="lgm" value="@include bp($screen-lg-min, max) {&#10;  $END$&#10;}" description="large max" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
