@@ -9,9 +9,7 @@
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
-  <action id="AutoIndentLines">
-    <keyboard-shortcut first-keystroke="alt tab" />
-  </action>
+  <action id="AutoIndentLines" />
   <action id="CompareTwoFiles" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
