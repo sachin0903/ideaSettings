@@ -19,5 +19,11 @@
       <shortuct text="control meta G" />
       <action id="EditorDeleteLine" />
     </macro>
+    <macro name="console logs">
+      <action id="Find" />
+      <typing text-keycode="67:0;79:0;78:0;83:0;79:0;76:0;69:0;46:0;76:0;79:0;71:0">console.log</typing>
+      <shortuct text="control meta G" />
+      <action id="EditorDeleteLine" />
+    </macro>
   </component>
 </application>
