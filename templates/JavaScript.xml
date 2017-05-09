@@ -101,4 +101,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="a" value="const $var$ = $param$ =&gt; $result$;" description="arrow fn" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;arrowfn&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="&quot;()&quot;" alwaysStopAt="true" />
+    <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
