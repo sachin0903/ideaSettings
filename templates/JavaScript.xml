@@ -44,7 +44,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="it" value="it('$Should$', function() {&#10;    assert.$END$&#10;});" description="it" toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it('$Should$', () =&gt; {&#10;    &#10;});" description="it" toReformat="false" toShortenFQNames="true">
     <variable name="Should" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
