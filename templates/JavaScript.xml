@@ -118,4 +118,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rsfc" value="import React from 'react';&#10;&#10;export function $func$(props: $type$) {&#10;    return (&#10;        $END$&#10;    );&#10;}" description="rsfc" toReformat="false" toShortenFQNames="true">
+    <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
