@@ -10,6 +10,9 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="AutoIndentLines" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
