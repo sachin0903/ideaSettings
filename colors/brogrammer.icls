@@ -10641,9 +10641,40 @@
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
       </value>
     </option>
+    <option name="TS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="3ad086" />
+      </value>
+    </option>
     <option name="TS.INTERFACE">
       <value>
         <option name="FOREGROUND" value="f1c410" />
+      </value>
+    </option>
+    <option name="TS.INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="f1c410" />
+      </value>
+    </option>
+    <option name="TS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="3598db" />
+      </value>
+    </option>
+    <option name="TS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="ff00dc" />
+      </value>
+    </option>
+    <option name="TS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e67e24" />
+      </value>
+    </option>
+    <option name="TS.STATIC_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="c619e9" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TYPO">
