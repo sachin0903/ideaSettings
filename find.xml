@@ -2,6 +2,28 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="preserveCase" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!*e2e*" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*E2E</mask>
+      <mask>*E2</mask>
+      <mask>*E</mask>
+      <mask>*e2e</mask>
+      <mask>*e2e*</mask>
+      <mask>!*e2e*</mask>
+    </recentFileMasks>
   </component>
 </application>
