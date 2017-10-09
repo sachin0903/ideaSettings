@@ -10690,6 +10690,7 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="ffe3b4" />
         <option name="ERROR_STRIPE_COLOR" value="ebc700" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
