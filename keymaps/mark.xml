@@ -106,6 +106,9 @@
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceConstant" />
+  <action id="Macro.Prettyify code">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+  </action>
   <action id="Macro.make smaller">
     <keyboard-shortcut first-keystroke="meta alt comma" />
   </action>
@@ -123,9 +126,7 @@
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
-  <action id="OptimizeImports">
-    <keyboard-shortcut first-keystroke="shift alt tab" />
-  </action>
+  <action id="OptimizeImports" />
   <action id="PrevSplitter" />
   <action id="PreviousEditorTab" />
   <action id="PreviousProjectWindow" />
@@ -139,9 +140,7 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="shift alt tab" />
-  </action>
+  <action id="ReformatCode" />
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
@@ -219,6 +218,7 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
