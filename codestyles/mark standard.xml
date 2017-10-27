@@ -1,4 +1,4 @@
-<code_scheme name="Default (2)">
+<code_scheme name="mark standard">
   <option name="HTML_ATTRIBUTE_WRAP" value="0" />
   <option name="HTML_TEXT_WRAP" value="0" />
   <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
@@ -15,10 +15,6 @@
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
   </JSCodeStyleSettings>
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="TABLE_LEFT_ALIGN_MARKER" value="0" />
-    <option name="RIGHT_MARGIN" value="72" />
-  </MarkdownNavigatorCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
