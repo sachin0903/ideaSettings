@@ -106,6 +106,9 @@
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceConstant" />
+  <action id="Macro.Add semicolon">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="Macro.Prettyify code">
     <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>

@@ -4,5 +4,9 @@
       <action id="OptimizeImports" />
       <action id="ReformatCode" />
     </macro>
+    <macro name="Add semicolon">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
   </component>
 </application>
