@@ -1,0 +1,11 @@
+<templateSet group="user">
+  <template name="ng" value="import {Component} from '@angular/core';&#10;&#10;@Component({ selector: '$selector$', templateUrl: '$selector$.component.html' })&#10;export class $something$Component {$end$&#10;}&#10;" description="Angular 4 Component" toReformat="false" toShortenFQNames="true">
+    <variable name="selector" expression="lowercaseAndDash(String)" defaultValue="&quot;component&quot;" alwaysStopAt="true" />
+    <variable name="something" expression="" defaultValue="capitalize(camelCase(selector))" alwaysStopAt="false" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
