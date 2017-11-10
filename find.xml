@@ -4,7 +4,6 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.properties</mask>
       <mask>*.jsp</mask>
       <mask>*.xml</mask>
       <mask>*.java</mask>
@@ -20,10 +19,21 @@
       <mask>!*e2e*</mask>
       <mask>.</mask>
       <mask>.html</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.ht</mask>
       <mask>*.html</mask>
+      <mask>!*.html</mask>
+      <mask>!e*.html</mask>
+      <mask>!e2e*.html</mask>
+      <mask>!e2e</mask>
+      <mask>!(e2e</mask>
+      <mask>!(e2e)</mask>
+      <mask>!</mask>
+      <mask>*.!e2e</mask>
+      <mask>*.!e2</mask>
+      <mask>*.!e</mask>
+      <mask>*.!</mask>
+      <mask>*.</mask>
+      <mask>*</mask>
     </recentFileMasks>
   </component>
 </application>
