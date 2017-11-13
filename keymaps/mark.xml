@@ -120,6 +120,10 @@
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
   <action id="GotoAction" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="GotoTest" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -187,9 +191,7 @@
   </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowContent" />
-  <action id="ShowFilePath">
-    <keyboard-shortcut first-keystroke="shift meta e" />
-  </action>
+  <action id="ShowFilePath" />
   <action id="ShowProjectStructureSettings" />
   <action id="Stop">
     <keyboard-shortcut first-keystroke="meta f2" />
