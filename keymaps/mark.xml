@@ -20,6 +20,7 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="DebugClass" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowSettingsPopup" />
@@ -108,7 +109,9 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
-  <action id="FindNext" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="FindPrevious" />
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
