@@ -8,5 +8,6 @@
       <action id="EditorLineEnd" />
       <typing text-keycode="59:0">;</typing>
     </macro>
+    <macro name="Template" />
   </component>
 </application>
