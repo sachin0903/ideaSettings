@@ -89,7 +89,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="rc" value="import React, {Component} from 'react';&#10;&#10;interface $interface${&#10;  $something$&#10;}&#10;&#10;export class $name$ extends Component&lt;$interface$, {}&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react and class" toReformat="false" toShortenFQNames="true">
+  <template name="rc" value="import React, {Component} from 'react';&#10;&#10;interface $interface$Props{&#10;  $something$&#10;}&#10;&#10;export class $name$ extends Component&lt;$interface$, {}&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react and class" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="interface" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="something" expression="" defaultValue="" alwaysStopAt="true" />

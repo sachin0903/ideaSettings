@@ -8,4 +8,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rc" value="import React, {Component} from 'react';&#10;&#10;interface $interface${&#10;    &#10;}&#10;&#10;export class $component$ extends Component&lt;$interface$&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="React Component" toReformat="false" toShortenFQNames="true">
+    <variable name="component" expression="capitalize(String)" defaultValue="&quot;Component&quot;" alwaysStopAt="true" />
+    <variable name="interface" expression="" defaultValue="concat(component, &quot;Props&quot;)" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
