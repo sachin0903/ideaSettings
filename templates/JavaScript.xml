@@ -132,6 +132,7 @@
   </template>
   <template name="pre" value="&lt;pre class=&quot;dev-tools&quot;&gt;{{$var$ | json}}&lt;/pre&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="XML" value="true" />
