@@ -10642,6 +10642,11 @@
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
       </value>
     </option>
+    <option name="TS.DECORATOR">
+      <value>
+        <option name="FOREGROUND" value="53d082" />
+      </value>
+    </option>
     <option name="TS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="3ad086" />
