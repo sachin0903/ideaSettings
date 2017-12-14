@@ -3,37 +3,38 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!*package*" />
     <recentFileMasks>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-      <mask>*.js</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*E2E</mask>
-      <mask>*E2</mask>
-      <mask>*E</mask>
-      <mask>*e2e</mask>
-      <mask>*e2e*</mask>
-      <mask>!*e2e*</mask>
-      <mask>.</mask>
-      <mask>.html</mask>
-      <mask>*.ht</mask>
-      <mask>*.html</mask>
-      <mask>!*.html</mask>
-      <mask>!e*.html</mask>
-      <mask>!e2e*.html</mask>
-      <mask>!e2e</mask>
-      <mask>!(e2e</mask>
-      <mask>!(e2e)</mask>
-      <mask>!</mask>
-      <mask>*.!e2e</mask>
-      <mask>*.!e2</mask>
-      <mask>*.!e</mask>
-      <mask>*.!</mask>
       <mask>*.</mask>
       <mask>*</mask>
+      <mask>!*</mask>
+      <mask>!*P</mask>
+      <mask>!*PACK</mask>
+      <mask>!*PACKAGE</mask>
+      <mask>!*PACKAGE.</mask>
+      <mask>!*PACKAGE.j</mask>
+      <mask>!*PACKAGE.json</mask>
+      <mask>!*.json</mask>
+      <mask>!*package.json</mask>
+      <mask>!*package*.json</mask>
+      <mask>!*package* !*</mask>
+      <mask>!*package* !</mask>
+      <mask>!*package* &quot; &quot;</mask>
+      <mask>!*package* &quot;&quot;</mask>
+      <mask>!*package* |</mask>
+      <mask>!*package* |</mask>
+      <mask>!*package*</mask>
+      <mask>!*package se*</mask>
+      <mask>!*package seed*</mask>
+      <mask>!*package | seed*</mask>
+      <mask>!*(package | seed*</mask>
+      <mask>!*(package | seed)*</mask>
+      <mask>!*(package | )*</mask>
+      <mask>!*(package |)*</mask>
+      <mask>!*(package )*</mask>
+      <mask>!*(package *</mask>
+      <mask>!*(package*</mask>
+      <mask>!*package*</mask>
     </recentFileMasks>
   </component>
 </application>
