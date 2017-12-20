@@ -122,6 +122,9 @@
   <action id="Git.ContextMenu">
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
+  <action id="Git.Menu">
+    <keyboard-shortcut first-keystroke="meta alt g" />
+  </action>
   <action id="GotoAction" />
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="f2" />
