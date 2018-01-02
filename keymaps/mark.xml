@@ -3,6 +3,11 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
   <action id="Arrangement.Alias.Rule.Add">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
@@ -28,6 +33,7 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditSourceInNewWindow" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl up" />
@@ -106,6 +112,7 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="FileChooser.GotoProject" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
