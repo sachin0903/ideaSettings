@@ -16,4 +16,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="modelRep" value="export const $asdf$: ModelRepresentation&lt;$asdf$Attributes, $asdf$Instance&gt; = {&#10;    fields: {},&#10;    name: '$end$',&#10;    options: {}&#10;};" toReformat="false" toShortenFQNames="true">
+    <variable name="asdf" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
