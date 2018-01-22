@@ -24,4 +24,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="mdl" value="export class $model$ extends Model {&#10;  public static init(sequelize) {&#10;    const fields: ModelFields&lt;$model$Attributes&gt; = {};&#10;    &#10;    const options: InitOptions = {&#10;      sequelize,&#10;      timestamps: false&#10;    };&#10;     &#10;    return super.init(fields, options);&#10;  }&#10;}" description="Seuqlize Model" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
