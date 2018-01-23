@@ -31,4 +31,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="init" value="export class $model$ extends Model {}&#10;&#10;export const $model$Init: ModelInit&lt;$model$Attributes&gt; = {&#10;  model: $model$,&#10;  fields: {},&#10;  options: {&#10;    timestamps: false&#10;  }&#10;};" description="Model Init" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
