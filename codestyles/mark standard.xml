@@ -8,7 +8,7 @@
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
   </CssCodeStyleSettings>
   <HTMLCodeStyleSettings>
-    <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+    <option name="HTML_ATTRIBUTE_WRAP" value="4" />
     <option name="HTML_TEXT_WRAP" value="0" />
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="HTML_QUOTE_STYLE" value="None" />
@@ -30,7 +30,7 @@
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </TypeScriptCodeStyleSettings>
   <XML>
-    <option name="XML_ATTRIBUTE_WRAP" value="0" />
+    <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="HTML">
