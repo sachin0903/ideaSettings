@@ -1,8 +1,9 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="1.6.1" />
-    <option name="selectedTheme" value="DARKER" />
-    <option name="highlightColor" value="80cbc4" />
-    <option name="accentColor" value="80cbc4" />
+    <option name="version" value="2.1.5.3" />
+    <option name="selectedTheme" value="SOLARIZED_DARK" />
+    <option name="isContrastMode" value="true" />
+    <option name="accentColor" value="7CB342" />
+    <option name="useMaterialIcons" value="false" />
   </component>
 </application>

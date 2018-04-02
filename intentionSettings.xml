@@ -1,6 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="XML/Expand Empty Tag" />
-    <ignoreAction name="CSS/Extract image" />
-  </component>
-</application>
