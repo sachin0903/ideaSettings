@@ -3,38 +3,5 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!*e2e*" />
-    <recentFileMasks>
-      <mask>!*PACKAGE</mask>
-      <mask>!*PACKAGE.</mask>
-      <mask>!*PACKAGE.j</mask>
-      <mask>!*PACKAGE.json</mask>
-      <mask>!*.json</mask>
-      <mask>!*package.json</mask>
-      <mask>!*package*.json</mask>
-      <mask>!*package* !*</mask>
-      <mask>!*package* !</mask>
-      <mask>!*package* &quot; &quot;</mask>
-      <mask>!*package* &quot;&quot;</mask>
-      <mask>!*package* |</mask>
-      <mask>!*package* |</mask>
-      <mask>!*package se*</mask>
-      <mask>!*package seed*</mask>
-      <mask>!*package | seed*</mask>
-      <mask>!*(package | seed*</mask>
-      <mask>!*(package | seed)*</mask>
-      <mask>!*(package | )*</mask>
-      <mask>!*(package |)*</mask>
-      <mask>!*(package )*</mask>
-      <mask>!*(package *</mask>
-      <mask>!*(package*</mask>
-      <mask>!*package*</mask>
-      <mask>!*package*</mask>
-      <mask>!package*</mask>
-      <mask>!e2epackage*</mask>
-      <mask>!e2e</mask>
-      <mask>!*e2e</mask>
-      <mask>!*e2e*</mask>
-    </recentFileMasks>
   </component>
 </application>
