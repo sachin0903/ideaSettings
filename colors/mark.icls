@@ -1,11 +1,11 @@
-<scheme name="_@user_Material Darker" version="142" parent_scheme="Darcula">
+<scheme name="mark" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-04-02T21:46:48</property>
+    <property name="created">2018-04-03T18:21:35</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-04-02T22:06:22</property>
-    <property name="originalScheme">Material Darker</property>
+    <property name="modified">2018-04-03T18:32:13</property>
+    <property name="originalScheme">_@user_Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <font>
@@ -606,18 +606,18 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="616161" />
+        <option name="FOREGROUND" value="ff08ed" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -632,12 +632,12 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="2ea1f1" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="f78c6c" />
+        <option name="FOREGROUND" value="932278" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -665,7 +665,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="2ea1f1" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -695,7 +695,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
+        <option name="FOREGROUND" value="91ff8b" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -711,12 +711,12 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="c792ea" />
+        <option name="FOREGROUND" value="f16562" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="616161" />
+        <option name="FOREGROUND" value="ff08ed" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -727,7 +727,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
+        <option name="FOREGROUND" value="ff0700" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -747,17 +747,17 @@
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
+        <option name="FOREGROUND" value="2ea1f1" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="2ea1f1" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -768,12 +768,12 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
+        <option name="FOREGROUND" value="ffeb75" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="e8d300" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -1235,7 +1235,6 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="fffbf7" />
         <option name="ERROR_STRIPE_COLOR" value="4f4f4f" />
       </value>
     </option>
@@ -3724,7 +3723,6 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="fffbf7" />
         <option name="ERROR_STRIPE_COLOR" value="4f4f4f" />
       </value>
     </option>
