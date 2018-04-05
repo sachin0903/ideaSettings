@@ -195,7 +195,6 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="alt r" />
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="ReopenClosedTab">
