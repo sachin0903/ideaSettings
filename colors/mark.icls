@@ -4,7 +4,7 @@
     <property name="created">2018-04-03T18:21:35</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-04-03T18:32:13</property>
+    <property name="modified">2018-04-05T17:17:44</property>
     <property name="originalScheme">_@user_Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -21,7 +21,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
     <option name="ANNOTATIONS_COLOR" value="b0bec5" />
-    <option name="CARET_COLOR" value="ffcc00" />
+    <option name="CARET_COLOR" value="faffff" />
     <option name="CARET_ROW_COLOR" value="181818" />
     <option name="CONSOLE_BACKGROUND_KEY" value="212121" />
     <option name="DELETED_LINES_COLOR" value="f77669" />
@@ -706,7 +706,7 @@
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="EFFECT_COLOR" value="ff5370" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -839,9 +839,11 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="292929" />
+        <option name="BACKGROUND" value="ff5370" />
         <option name="EFFECT_COLOR" value="ff5370" />
         <option name="ERROR_STRIPE_COLOR" value="ff5370" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -1221,11 +1223,7 @@
         <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
-    <option name="HTML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="f07178" />
-      </value>
-    </option>
+    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff9800" />
@@ -1247,7 +1245,7 @@
       <value>
         <option name="EFFECT_COLOR" value="c3e88d" />
         <option name="ERROR_STRIPE_COLOR" value="aeae80" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -2257,6 +2255,13 @@
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="474747" />
+      </value>
+    </option>
+    <option name="NOT_USED_ELEMENT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="Number">
@@ -3716,9 +3721,11 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="292929" />
+        <option name="BACKGROUND" value="ffcb6b" />
         <option name="EFFECT_COLOR" value="ffcb6b" />
         <option name="ERROR_STRIPE_COLOR" value="ffcb6b" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -3733,8 +3740,9 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff5370" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="f5f2ff" />
+        <option name="BACKGROUND" value="f16562" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
@@ -3766,11 +3774,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="XML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="f07178" />
-      </value>
-    </option>
+    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
     <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
