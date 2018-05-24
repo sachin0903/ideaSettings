@@ -50,7 +50,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="desc" value="describe('$test$', function() {&#10;&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
+  <template name="desc" value="describe('$test$', () =&gt; {&#10;&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
     <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -140,11 +140,15 @@
   </template>
   <template name="f" value="export default (props: HTMLAttributes&lt;HTMLElement&gt;) =&gt; (&#10;  &lt;$el$&gt;&#10;    $END$&#10;  &lt;/$el$&gt;&#10;)" description="Functional Component" toReformat="false" toShortenFQNames="true">
     <variable name="el" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
-    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
       <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="test" value="test('$test$', () =&gt; {&#10;  expect($END$);&#10;});" description="test" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
