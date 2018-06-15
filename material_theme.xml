@@ -6,5 +6,8 @@
     <option name="isContrastMode" value="true" />
     <option name="accentColor" value="ff9800" />
     <option name="useMaterialIcons" value="false" />
+    <option name="compactSidebar" value="true" />
+    <option name="tabsHeight" value="50" />
+    <option name="isCompactStatusBar" value="true" />
   </component>
 </application>
