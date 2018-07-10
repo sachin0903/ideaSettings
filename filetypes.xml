@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="FilteredDevelopmentList" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
     </extensionMap>
