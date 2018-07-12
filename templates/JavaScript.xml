@@ -68,7 +68,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="c" value="interface $interface${&#10;  $something$&#10;}&#10;&#10;export class $name$ extends Component&lt;$interface$, {}&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react component class" toReformat="false" toShortenFQNames="true">
+  <template name="rclass" value="interface $interface${&#10;  $something$&#10;}&#10;&#10;export class $name$ extends Component&lt;$interface$, {}&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react component class" toReformat="false" toShortenFQNames="true">
     <variable name="interface" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="something" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
