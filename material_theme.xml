@@ -1,15 +1,15 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.9.0-pre1" />
-    <option name="selectedTheme" value="DARKER" />
-    <option name="highlightColor" value="80cbc4" />
-    <option name="accentColor" value="ff9e2a" />
-    <option name="useMaterialIcons" value="false" />
     <option name="compactSidebar" value="true" />
-    <option name="tabsHeight" value="50" />
     <option name="isCompactStatusBar" value="true" />
-    <option name="userId" value="-5588231b:164cbfb179c:-7fff" />
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
+    <option name="useMaterialIcons" value="false" />
+    <option name="tabsHeight" value="50" />
+    <option name="accentColor" value="ff9e2a" />
+    <option name="highlightColor" value="80cbc4" />
+    <option name="selectedTheme" value="DARKER" />
+    <option name="userId" value="-5588231b:164cbfb179c:-7fff" />
+    <option name="version" value="3.0.0-rc3" />
   </component>
 </application>
