@@ -1,0 +1,150 @@
+<templateSet group="JavaScript">
+  <template name="comm" value="// ======================================&#10;// $comm$&#10;// ======================================&#10;" description="Inserts comment box" toReformat="false" toShortenFQNames="true">
+    <variable name="comm" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mo" value="import React from 'react';&#10;&#10;const $Name$ = (props) =&gt; (&#10;    $body$&#10;);&#10;&#10;export default $Name$" description="Inserts Dummy Component" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="redcon" value="export const $param$_REQUEST = '$param$_REQUEST';&#10;export const $param$_SUCCESS = '$param$_SUCCESS';&#10;export const $param$_FAILURE = '$param$_FAILURE';" description="Redux Constants" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="capitalizeAndUnderscore(String)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="console.log($var$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="con" value="const $var$ = '$var$';" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="red" value="export function $reducerName$(state: $state$ = $init$, action: Action&lt;any&gt;): $state$ {&#10;    switch(action.type) {&#10;        case $action$:&#10;            return $return$;&#10;        default:&#10;            return state;&#10;}" description="Reducer template" toReformat="false" toShortenFQNames="true">
+    <variable name="reducerName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="init" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('$Should$', () =&gt; {&#10;    &#10;});" description="it" toReformat="false" toShortenFQNames="true">
+    <variable name="Should" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="desc" value="describe('$test$', () =&gt; {&#10;&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$$" value="var $var$ = $('$sel$');" description="jQuery" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="'$'" alwaysStopAt="true" />
+    <variable name="sel" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$" value="$('$SELECTION$')" description="jQuery selection" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rclass" value="interface $interface${&#10;  $something$&#10;}&#10;&#10;export class $name$ extends Component&lt;$interface$, {}&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react component class" toReformat="false" toShortenFQNames="true">
+    <variable name="interface" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="something" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="import classNames from 'classnames';" description="classnames" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="r" value="import React, {Component} from 'react';" description="react component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rc" value="import React, {Component} from 'react';&#10;&#10;interface $interface$Props{&#10;  $something$&#10;}&#10;&#10;export class $name$ extends Component&lt;$interface$, {}&gt; {&#10;  public render() {&#10;    return (&#10;    $END$&#10;    );&#10;  }&#10;}" description="react and class" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="interface" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="something" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="logg" value="console.log('%c --------v $var$ $var2$ --------v', 'color: white; font-size: 18px;');&#10;console.log($var2$);" description="Big Console Log * 2" toReformat="false" toShortenFQNames="true">
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="a" value="const $var$ = $param$ =&gt; $result$;" description="arrow fn" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;arrowfn&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="&quot;()&quot;" alwaysStopAt="true" />
+    <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pre" value="&lt;pre class=&quot;dev-tools&quot;&gt;{{$var$ | json}}&lt;/pre&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="f" value="export default (props: HTMLAttributes&lt;HTMLElement&gt;) =&gt; (&#10;  &lt;$el$&gt;&#10;    $END$&#10;  &lt;/$el$&gt;&#10;)" description="Functional Component" toReformat="false" toShortenFQNames="true">
+    <variable name="el" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="test" value="test('$test$', () =&gt; {&#10;  expect($END$);&#10;});" description="test" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sfc" value="import React, {SFC} from 'react';&#10;&#10;export const $func$: SFC = props =&gt; (&#10;  $END$&#10;); " description="Stateless Functional Component" toReformat="false" toShortenFQNames="true">
+    <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sfcp" value="import React, {SFC} from 'react';&#10;&#10;interface Props {&#10;  $props$&#10;}&#10;&#10;export const $func$: SFC&lt;Props&gt; = props =&gt; (&#10;  $END$&#10;); " description="Stateless Functional Component with Props" toReformat="true" toShortenFQNames="true">
+    <variable name="props" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,23 @@
+<templateSet group="Zen CSS">
+  <template name="md" value="@include bp($screen-md-min) {&#10;  $END$&#10;}" description="medium breakpoint" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="lg" value="@include bp($screen-lg-min) {&#10;  $END$&#10;}" description="large breakpoint" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="mdm" value="@include bp($screen-md-min, max) {&#10;  $END$&#10;}" description="medium max" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="lgm" value="@include bp($screen-lg-min, max) {&#10;  $END$&#10;}" description="large max" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="p" value="padding:$END$;" description="padding:...;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
