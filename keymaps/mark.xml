@@ -142,6 +142,9 @@
   </action>
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceConstant" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
   <action id="LocalHistory">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
