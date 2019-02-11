@@ -10,7 +10,11 @@
       <mapping pattern=".bashrc" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="FilteredDevelopmentList" type="PLAIN_TEXT" />
+      <mapping pattern="caBundle" type="PLAIN_TEXT" />
+      <mapping pattern="caBundleClient" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
+      <mapping ext="cert" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="build" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
