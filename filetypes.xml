@@ -16,6 +16,7 @@
       <mapping pattern="caBundle" type="PLAIN_TEXT" />
       <mapping pattern="caBundleClient" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
+      <mapping pattern="include-test" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-dev" type="PLAIN_TEXT" />
       <mapping ext="cert" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
