@@ -10,6 +10,7 @@
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
       <mapping pattern=".!8214!httpd.conf" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile1" type="PLAIN_TEXT" />
       <mapping pattern=".bashrc" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="FilteredDevelopmentList" type="PLAIN_TEXT" />
