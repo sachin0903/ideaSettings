@@ -21,6 +21,7 @@
       <mapping pattern="Dockerfile-dev" type="PLAIN_TEXT" />
       <mapping ext="cert" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="node" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="build" type="PLAIN_TEXT" />
